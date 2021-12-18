@@ -1,0 +1,29 @@
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #212121;
+  --third-title-color: rgba(255, 255, 255, 0.6);
+  --main-text-color: #757575;
+  --accent-color: #2196f3;
+  --accent-border-color: #ececec;
+  --main-btn-color: #ffffff;
+  --second-btn-color: #212121;
+  --main-background-color: #ffffff;
+  --second-background-color: #2f303a;
+  --third-background-color: #f5f4fa;
+  --header-text-color: #212121;
+  --main-icons-color: #afb1b8;
+  --second-icons-color: #ffffff;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
