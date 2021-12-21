@@ -262,6 +262,17 @@
 .mob-social__list {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.mob-social__item:not(:last-child)::after {
+  content: "";
+  width: 22px;
+  height: 0px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  transform: rotate(90deg);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .mob-social__link {
@@ -269,10 +280,4 @@
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: #2196f3;
-  //border: 1px solid rgba(33, 33, 33, 0.2);
-  //transform: rotate(90deg);
-}
-
-.mob-social__item + .mob-social__item {
-  margin-left: 20px;
 }

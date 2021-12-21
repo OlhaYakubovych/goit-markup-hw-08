@@ -25,10 +25,10 @@
             <nav class="header-nav">
                 <ul class="list header-nav__list">
                     <li class="header-nav__item">
-                        <a class="link header-nav__link" href="./index.html">Студия</a>
+                        <a class="link header-nav__link current" href="./index.html">Студия</a>
                     </li>
                     <li class="header-nav__item">
-                        <a class="link header-nav__link current" href="./portfolio.html">Портфолио</a>
+                        <a class="link header-nav__link" href="./portfolio.html">Портфолио</a>
                     </li>
                     <li class="header-nav__item">
                         <a class="link header-nav__link" href="">Контакты</a>
@@ -36,22 +36,77 @@
                 </ul>
             </nav>
             <div class="header-contacts">
-            <ul class="list header-contacts__list">
-                <li class="header-contacts__item">
-                    <a class="header-contacts__link link" href="maito:info@devstudio.com">
-                        <svg class="header-contacts__icon" width="16" height="12">
-                            <use href="./images/icons.svg#icon-envelope-hover"></use>
+                <ul class="list header-contacts__list">
+                    <li class="header-contacts__item">
+                        <a class="header-contacts__link link" href="maito:info@devstudio.com">
+                            <svg class="header-contacts__icon" width="16" height="12">
+                                <use href="./images/icons.svg#icon-envelope-hover"></use>
+                            </svg>
+                            info@devstudio.com </a>
+                    </li>
+                    <li class="header-contacts__item">
+                        <a class="header-contacts__link link" href="tel:+380961111111">
+                            <svg class="header-contacts__icon" width="10" height="16">
+                                <use href="./images/icons.svg#icon-Vector"></use>
+                            </svg>
+                            +38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="open-menu__btn" type="button">
+                <svg class="open-menu__icon" width="40" height="40">
+                    <use href="./images/icons.svg#icon-menu"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="mob-menu is-hidden">
+            <div class="conteiner">
+                <div class="mob-menu__top">
+                    <button class="close-menu__btn" type="button">
+                        <svg class="close-menu__icon" width="18.67" height="18.67">
+                            <use href="./images/icons.svg#icon-Close"></use>
                         </svg>
-                        info@devstudio.com </a>
-                </li>
-                <li class="header-contacts__item">
-                    <a class="header-contacts__link link" href="tel:+380961111111">
-                        <svg class="header-contacts__icon" width="10" height="16">
-                            <use href="./images/icons.svg#icon-Vector"></use>
-                        </svg>
-                        +38 096 111 11 11</a>
-                </li>
-            </ul>
+                    </button>
+                    <ul class="list mob-menu__list">
+                        <li class="mob-menu__item">
+                            <a class="mob-menu__link link" href="./index.html">Студия</a>
+                        </li>
+                        <li class="mob-menu__item">
+                            <a class="mob-menu__link link" href="./portfolio.html">Портфолио</a>
+                        </li>
+                        <li class="mob-menu__item">
+                            <a class="mob-menu__link link" href="">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mob-menu-bottom">
+                    <div class="mob-contacts">
+                        <ul class="list mob-contacts__list">
+                            <li class="mob-contacts__item">
+                                <a class="mob-contacts__link-tel link" href="tel:+380961111111">
+                                    +38 096 111 11 11</a>
+                            </li>
+                            <li class="mob-contacts__item">
+                                <a class="mob-contacts__link-email link" href="maito:info@devstudio.com">
+                                    info@devstudio.com </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="list mob-social__list">
+                        <li class="mob-social__item">
+                            <a href="" class="link mob-social__link">Instagram</a>
+                        </li>
+                        <li class="mob-social__item">
+                            <a href="" class="link mob-social__link">Twitter</a>
+                        </li>
+                        <li class="mob-social__item">
+                            <a href="" class="link mob-social__link">Facebook</a>
+                        </li>
+                        <li class="mob-social__item">
+                            <a href="" class="link mob-social__link">Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -67,12 +122,12 @@
             <li class="wrap-btn__item"><button class="wrap-btn__button" type="button">Дизайн</button></li>
             <li class="wrap-btn__item"><button class="wrap-btn__button" type="button">Маркетинг</button></li>
         </ul>
-        <div class="container wrap-pic">
+        <div class="wrap-pic">
         <ul class="wrap-pic__list list">
             <li class="wrap-pic__item">
                 <a href="" class="wrap-pic__link link">
                     <div class="wrap-pic__pic-card pic-card">
-                    <img src="./images/img-8.jpg" width="370" height="294" alt="Люди"/>
+                    <img src="./images/img-8.jpg" width="450" height="294" alt="Люди"/>
                 <p class="pic-card__text-top">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                 шпионажа и атак на защищённые сервера конкурентов.</p></div>
                 <h2 class="pic-card__title">Технокряк</h2>
@@ -82,7 +137,7 @@
             <li class="wrap-pic__item">
                 <a href="" class="wrap-pic__link link">
                     <div class="wrap-pic__pic-card pic-card">
-                    <img src="./images/img-9.jpg" width="370" height="294" alt="Игра"/>
+                    <img src="./images/img-9.jpg" width="450" height="294" alt="Игра"/>
                 <p class="pic-card__text-top">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                 шпионажа и атак на защищённые сервера конкурентов.</p></div>
                 <h2 class="pic-card__title">Постер New Orlean vs Golden Star</h2>
@@ -92,7 +147,7 @@
             <li class="wrap-pic__item">
                 <a href="" class="wrap-pic__link link">
                     <div class="wrap-pic__pic-card pic-card">
-                    <img src="./images/img-10.jpg" width="370" height="294" alt="Рыба" />
+                    <img src="./images/img-10.jpg" width="450" height="294" alt="Рыба" />
                 <p class="pic-card__text-top">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                 шпионажа и атак на защищённые сервера конкурентов.</p></div>
                 <h2 class="pic-card__title">Ресторан Seafood</h2>
@@ -102,7 +157,7 @@
             <li class="wrap-pic__item">
                 <a href="" class="wrap-pic__link link">
                     <div class="wrap-pic__pic-card pic-card">
-                    <img src="./images/img-11.jpg" width="370" height="294" alt="Наушники"/>
+                    <img src="./images/img-11.jpg" width="450" height="294" alt="Наушники"/>
                 <p class="pic-card__text-top">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                 шпионажа и атак на защищённые сервера конкурентов.</p></div>
                 <h2 class="pic-card__title">Проект Prime</h2>
@@ -112,7 +167,7 @@
             <li class="wrap-pic__item">
                 <a href="" class="wrap-pic__link link">
                     <div class="wrap-pic__pic-card pic-card">
-                    <img src="./images/img-12.jpg" width="370" height="294" alt="Коробки"/>
+                    <img src="./images/img-12.jpg" width="450" height="294" alt="Коробки"/>
                 <p class="pic-card__text-top">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                 шпионажа и атак на защищённые сервера конкурентов.</p></div>
                 <h2 class="pic-card__title">Проект Boxes</h2>
@@ -122,7 +177,7 @@
             <li class="wrap-pic__item">
                 <a href="" class="wrap-pic__link link">
                     <div class="wrap-pic__pic-card pic-card">
-                    <img src="./images/img-13.jpg" width="370" height="294" alt="Сайт"/>
+                    <img src="./images/img-13.jpg" width="450" height="294" alt="Сайт"/>
                 <p class="pic-card__text-top">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                 шпионажа и атак на защищённые сервера конкурентов.</p></div>
                 <h2 class="pic-card__title">Inspiration has no Borders</h2>
@@ -132,7 +187,7 @@
             <li class="wrap-pic__item">
                 <a href="" class="wrap-pic__link link">
                     <div class="wrap-pic__pic-card pic-card">
-                    <img src="./images/img-14.jpg" width="370" height="294" alt="Книга"/>
+                    <img src="./images/img-14.jpg" width="450" height="294" alt="Книга"/>
                 <p class="pic-card__text-top">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                 шпионажа и атак на защищённые сервера конкурентов.</p></div>
                 <h2 class="pic-card__title">Издание Limited Edition</h2>
@@ -142,7 +197,7 @@
             <li class="wrap-pic__item">
                 <a href="" class="wrap-pic__link link">
                     <div class="wrap-pic__pic-card pic-card">
-                    <img src="./images/img-15.jpg" width="370" height="294" alt="Значок"/>
+                    <img src="./images/img-15.jpg" width="450" height="294" alt="Значок"/>
                 <p class="pic-card__text-top">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                 шпионажа и атак на защищённые сервера конкурентов.</p></div>
                 <h2 class="pic-card__title">Проект LAB</h2>
@@ -152,7 +207,7 @@
             <li class="wrap-pic__item">
                 <a href="" class="wrap-pic__link link">
                     <div class="wrap-pic__pic-card pic-card">
-                    <img src="./images/img-16.jpg" width="370" height="294" alt="Работа за комп'ютером"/>
+                    <img src="./images/img-16.jpg" width="450" height="294" alt="Работа за комп'ютером"/>
                 <p class="pic-card__text-top">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                 шпионажа и атак на защищённые сервера конкурентов.</p></div>
                 <h2 class="pic-card__title">Growing Business</h2>

@@ -60,10 +60,14 @@
 
   font-weight: bold;
   font-size: 20px;
-  line-height: 1.15;
+  //line-height: 1.15;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
+  @media screen and (min-width: 1200px) {
+    line-height: 1.15;
+  }
 }
 
 .modal__field {
@@ -115,8 +119,10 @@
   outline: none;
 
   font-weight: normal;
-  font-size: 12px;
-  line-height: 1.17;
+  //font-size: 12px;
+  //line-height: 1.17;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 
@@ -125,6 +131,10 @@
   border-radius: 4px;
   &:focus {
     border-color: var(--accent-color);
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 12px;
+    line-height: 1.17;
   }
 }
 
@@ -177,20 +187,32 @@
   display: flex;
   align-items: center;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
+  //font-size: 14px;
+  //line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .policy-check__agreement {
   margin-left: 5px;
 
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
+  //font-size: 14px;
+  //line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .policy-check__item {
