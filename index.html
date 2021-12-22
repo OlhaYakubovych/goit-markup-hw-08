@@ -153,20 +153,41 @@
             <ul class="about__list list">
                 <li class="about__item">
                     <div class="about__wrap">
-                    <img src="./images/img.jpg" width="370" height="294" alt="Комп'ютер"/>
-                    <p class="about__text">Десктопные приложения</p>
-                </div>
+                        <picture>
+                            <source 
+                            srcset="
+                            ./images/img.jpg 1x,
+                            ./images/about/about-dest2-2x.jpg 2x" 
+                            media="(min-width: 1200px)" />
+                            <img src="./images/img.jpg" alt="Комп'ютер"/>
+                                <p class="about__text">Десктопные приложения</p>
+                        </picture>
+                    </div>
                 </li>
                 <li class="about__item">
                     <div class="about__wrap">
-                    <img src="./images/img-2.jpg" width="370" height="294" alt="Телефон"/>
+                        <picture>
+                            <source 
+                            srcset="
+                            ./images/img-2.jpg 1x,
+                            ./images/about/about-dest3-2x.jpg 2x" 
+                            media="(min-width: 1200px)" />
+                    <img src="./images/img-2.jpg" alt="Телефон"/>
                     <p class="about__text">Мобильные приложения</p>
+                    </picture>
                 </div>
                 </li>
                 <li class="about__item">
                     <div class="about__wrap">
-                    <img src="./images/img-3.jpg" width="370" height="294" alt="Планшет"/>
+                        <picture>
+                            <source 
+                            srcset="
+                            ./images/img-3.jpg 1x,
+                            ./images/about/about-dest1-2x.jpg 2x" 
+                            media="(min-width: 1200px)" />
+                    <img src="./images/img-3.jpg" alt="Планшет"/>
                     <p class="about__text">Дизайнерские решения</p>
+                    </picture>
                 </div>
                 </li>
             </ul>
@@ -177,7 +198,22 @@
             <div class="container team__container">
             <h2 class="team__title">Наша команда</h2>
             <ul class="team-list list">
-                <li class="team-list__item"><img src="./images/img-4.jpg" width="270" height="260" alt="Сотрудник 1" />
+                <li class="team-list__item">
+                    <picture>
+                        <source srcset="
+                        ./images/img-4.jpg 1x,
+                        ./images/team/team-dest1-2x.jpg 2x"
+                        media="(min-width: 1200px)" />
+                        <source srcset="
+                        ./images/team/team-tab1-1x.jpg 1x
+                        ./images/team/team-tab1-2x.jpg 2x"
+                        media="(min-width: 768px)" />
+                        <source srcset="
+                        ./images/team/team-mob1-1x.jpg 1x
+                        ./images/team/team-mob1-2x.jpg 2x"
+                        media="(min-width: 320px)" />
+                    <img src="./images/img-4.jpg" alt="Сотрудник 1" />
+                    </picture>
                     <div class="team-list__wrap">
                     <h3 class="team-list__title">Игорь Демьяненко</h3>
                     <p class="team-list__text">Product Designer</p>
@@ -213,7 +249,22 @@
                     </ul>
                     </div>
             </li>
-                <li class="team-list__item"><img src="./images/img-5.jpg" width="270" height="260" alt="Сотрудник 2" />
+                <li class="team-list__item">
+                    <picture>
+                        <source srcset="
+                        ./images/img-5.jpg 1x,
+                        ./images/team/team-dest2-2x.jpg 2x" 
+                        media="(min-width: 1200px)" />
+                        <source srcset="
+                        ./images/team/team-tab2-1x.jpg 1x
+                        ./images/team/team-tab2-2x.jpg 2x" 
+                        media="(min-width: 768px)" />
+                        <source srcset="
+                        ./images/team/team-mob2-1x.jpg 1x
+                        ./images/team/team-mob2-2x.jpg 2x" 
+                        media="(min-width: 320px)" />
+                    <img src="./images/img-5.jpg" alt="Сотрудник 2" />
+                    </picture>
                     <div class="team-list__wrap">
                     <h3 class="team-list__title">Ольга Репина</h3>
                     <p class="team-list__text">Frontend Developer</p>
@@ -249,7 +300,22 @@
                     </ul>
                     </div>
             </li>
-                <li class="team-list__item"><img src="./images/img-6.jpg" width="270" height="260" alt="Сотрудник 3" />
+                <li class="team-list__item">
+                    <picture>
+                        <source srcset="
+                        ./images/img-6.jpg 1x,
+                        ./images/team/team-dest3-2x.jpg 2x" 
+                        media="(min-width: 1200px)" />
+                        <source srcset="
+                        ./images/team/team-tab3-1x.jpg 1x
+                        ./images/team/team-tab3-2x.jpg 2x" 
+                        media="(min-width: 768px)" />
+                        <source srcset="
+                        ./images/team/team-mob3-1x.jpg 1x
+                        ./images/team/team-mob3-2x.jpg 2x" 
+                        media="(min-width: 320px)" />
+                    <img src="./images/img-6.jpg" alt="Сотрудник 3" />
+                    </picture>
                     <div class="team-list__wrap">
                     <h3 class="team-list__title">Николай Тарасов</h3>
                     <p class="team-list__text">Marketing</p>
@@ -285,7 +351,22 @@
                     </ul>
                     </div>
             </li>
-                <li class="team-list__item"><img src="./images/img-7.jpg" width="270" height="260" alt="Сотрудник 4" />
+                <li class="team-list__item">
+                    <picture>
+                        <source srcset="
+                        ./images/img-7.jpg 1x,
+                        ./images/team/team-dest4-2x.jpg 2x" 
+                        media="(min-width: 1200px)" />
+                        <source srcset="
+                        ./images/team/team-tab4-1x.jpg 1x
+                        ./images/team/team-tab4-2x.jpg 2x" 
+                        media="(min-width: 768px)" />
+                        <source srcset="
+                        ./images/team/team-mob4-1x.jpg 1x
+                        ./images/team/team-mob4-2x.jpg 2x" 
+                        media="(min-width: 320px)" />
+                    <img src="./images/img-7.jpg" alt="Сотрудник 4" />
+                    </picture>
                     <div class="team-list__wrap">
                     <h3 class="team-list__title">Михаил Ермаков</h3>
                     <p class="team-list__text">UI Designer</p>
