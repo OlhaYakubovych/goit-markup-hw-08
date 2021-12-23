@@ -126,9 +126,6 @@
     margin-left: 50px;
   }
 }
-.header-contacts__item + .header-contacts__item {
-  //margin-left: 50px;
-}
 
 .header-contacts__link {
   display: flex;
@@ -240,10 +237,6 @@
   line-height: 1.18;
   letter-spacing: 0.02em;
   color: #2196f3;
-  &:hover,
-  &:focus {
-    //color: var(--accent-color);
-  }
 }
 
 .mob-contacts__link-email {
