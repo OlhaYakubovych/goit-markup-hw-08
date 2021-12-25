@@ -155,6 +155,11 @@
   fill: var(--main-text-color);
 }
 
+.mob-menu {
+  width: 100vw;
+  height: 100vh;
+}
+
 .open-menu__btn {
   display: flex;
   margin-left: auto;

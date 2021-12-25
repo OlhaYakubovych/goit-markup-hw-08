@@ -48,7 +48,7 @@
 .wrap-pic__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  //justify-content: space-around;
   @media screen and (min-width: 768px) {
     margin-left: -30px;
   }
@@ -68,21 +68,21 @@
   &:nth-child(3n) {
     margin-right: 0;
   }
+  &:last-child {
+    margin-bottom: 0;
+  }
   &:hover .pic-card__text-top {
     transform: translateY(0);
   }
   @media screen and (min-width: 768px) {
     flex-basis: calc(100% / 2 - 30px);
     margin-left: 30px;
-    &:nth-last-child(-n + 1) {
-      margin-bottom: 0;
-    }
   }
   @media screen and (min-width: 1200px) {
     flex-basis: calc(100% / 3 - 30px);
-  }
-  &:nth-last-child(-n + 3) {
-    margin-bottom: 0;
+    &:nth-last-child(-n + 3) {
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -109,10 +109,7 @@
 }
 
 .pic-card__title {
-  margin-top: 20px;
   margin-bottom: 4px;
-  margin-left: 24px;
-
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -121,10 +118,11 @@
 }
 
 .pic-card__text {
-  margin-bottom: 20px;
-  margin-left: 24px;
-
   font-size: 16px;
   line-height: 1.87;
   color: var(--main-text-color);
+}
+
+.wrap-pic__card-text {
+  padding: 20px 24px 20px 24px;
 }
